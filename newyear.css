@@ -1,0 +1,43 @@
+.body{
+    text-align: center;
+    padding-top: 30%;
+    background-color: rgb(252, 7, 7);
+    background-size: cover;
+    background-image: url(fire.jpg);
+}
+*{
+    padding: 0;
+}
+.show{
+    display: none;
+}
+.h1{
+    text-align:center;
+    font-size: 150px;
+    color: green;
+    text-shadow: 5px 5px rgb(231, 182, 22);
+}
+h2{
+    font-size: 200px;
+    color: yellow;
+    text-shadow: 5px 5px red;
+}
+input{
+    font-size: 80px;
+    width: 70%;
+    border: 5px solid blue;
+    align-items: center;
+}
+button{
+    font-size: 60px;
+    background-color: gray;
+    border-radius: 15px;
+    border: 3px solid green;
+    font-weight: 400;
+    align-items: center;
+}
+.img{
+    height: 90%;
+    width: 100%;
+    border: 2px solid greenyellow;
+}

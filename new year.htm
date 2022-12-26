@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy new year</title>
+    <link rel="icon" type="image/icon-x" href="merry x-mas.jpg">
+    <link rel="icon" type="image/icon-x" href="merry x-mas.jpg">
+</head>
+<body style="text-align: center;padding-top: 30%;background-color: rgb(213, 247, 162);">
+    <img src="treee.jpg" alt="Christmas tree" align-items="top">
+    <div class="input" id="nwyr">
+        <h1 style="text-align: center; font-size: 100px;color: rgb(16, 16, 16);text-shadow: 5px 5px rgb(231, 182, 22);">Type your name</h1>
+        <br>
+        <br>
+        <input type="text" id="txt" style="   font-size: 80px;width: 70%; border: 5px solid blue;align-items: center;">
+        <br>
+       <br> 
+       <button onclick="newYear()" oncanplay="" style=" font-size: 60px;background-color: gray;border-radius: 15px;border: 3px solid green;font-weight: 400;align-items: center;">
+        <audio  controls>
+            <p>feel relaxed!</p> <br>
+            <source src="snd.mp4" type="audio/mp4">
+        </audio> <br> I wish you</button>
+    </div>
+    <div class="show" id="newyear" style=" display: none;background-image: url(tree.jpg);" >
+        <h4 style="text-align: center;font-size: 100px;color: rgb(59, 240, 59);text-shadow: 5px 5px rgb(231, 182, 22);">
+            Merry christmass <br> 🎄🤶🏽⛪🎅🏽🧑🏽‍🎄🎄❄️😜🎄  <br> and <br> happy new year</h4>
+            <h1>
+            <p>
+                <marquee class="fixed h-full top-[1%] left-[1%] w-auto" behavior="scroll" direction="left" scrolldelay="0">🎄🎄🎄❄️🧑🏽‍🎄🧑🏽🤶🏽🎅🏽😃😊😉🤩🤗🎄🎄🎄🎄❄️❄️❄️🤶🏽🤶🏽🤩🤩🤩🤩🤩🤩🤗🤗🤗🎄❄️❄️❄️🤶🏽🤶🏽🎅🏽🎅🏽🎅🏽🎅🏽🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄❄️❄️❄️❄️❄️🤩🤩🤩🤩🤩🤗🤗🤗😃😃😊😊😊😊😊🎅🏽🎅🏽🎅🏽🎅🏽🎅🏽🎅🏽🎅🏽</marquee>
+                 <p style="color: rgb(230, 149, 10);">Sending you my warm wishes <br></p>
+                 <p style="color: rgb(248, 14, 14);"> from home to home and <br></p>
+                 <p style="color: rgb(69, 8, 239);">from heart to heart <br></p>
+                 <p style="color: rgb(148, 15, 231);">Have a very very <br></p>
+                 <p style="color: rgb(5, 129, 27);">🎄blessed Merry Christmass and new year🎄<br></p>
+                
+            </p>
+        </h1>
+               <h2 id="happy" style=" font-size: 200px;color: rgb(0, 132, 255);text-shadow: 5px 5px red;"></h2>
+        <br>
+        <img src="newyear.jpg" alt="2023year comes to your side"class="img" style="    height: 90%;width: 100%;border: 2px solid greenyellow;">
+        <h1 style="color: rgb(54, 66, 3);">Accept this gift from👇🏽👇🏽 </h1> <a href="thanks.htm"><img src="pere noel.jpg" alt="pere noel"></a> 
+    </div>
+    <script>
+        function newYear(){
+    let txt=document.getElementById("txt").value;
+    if(txt==0){
+        alert("You also need to get this gift so type your name👇🏽👇🏽")
+    }else{
+        document.getElementById("happy").innerHTML=txt;
+        document.getElementById("nwyr").style.display="none";
+        document.getElementById("newyear").style.display="block"
+    }
+}
+    </script>
+</body>
+</html>
